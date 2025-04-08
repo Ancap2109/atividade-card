@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(194, 194, 216);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-content: center;
+    justify-content: center; /*alinhamento vertical*/
+    align-items: center; /* alinhamento horizontal*/
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(159, 89, 199);
+    text-align: center;
+    height: 450px;
+    width: 310px;
+    border-radius: 20px;
+
+    box-shadow: 3px 6px 6px rgb(20, 18, 17);
+}
+
+.imagemCartao{
+    display: flex;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    padding: -0px;
+}
+
+.conteudo{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+div .social{
+    display: flex;
+    justify-content: center;
+}
+
+div .social img{
+    height: 40px;
+}
